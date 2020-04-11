@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class empezarPartidaEstandar : MonoBehaviour
 {
+    public GameObject cubo;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,5 +21,6 @@ public class empezarPartidaEstandar : MonoBehaviour
     public void jugar() 
     {
         SceneManager.LoadScene("escenaPartida", LoadSceneMode.Single);
+
     }
 }
